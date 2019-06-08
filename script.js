@@ -10,6 +10,7 @@ $(document).ready(function(){
    
     magic8Ball.askQuestion = function(question){
         $("#answer").fadeIn(4000);
+        $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballAnswer.png");
         var randomNumber = Math.random();
         var randomNumberForListOfAnswers = randomNumber * this.listOfAnswers.length;
         var randomIndex = Math.floor(randomNumberForListOfAnswers);
@@ -24,6 +25,7 @@ $(document).ready(function(){
     
         var onClick = function() {
         $("#answer").hide();
+        $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballAnswer.png");
         var question = prompt("Ask Me Anything!");
         magic8Ball.askQuestion(question);
     };
