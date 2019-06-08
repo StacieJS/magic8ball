@@ -30,7 +30,14 @@ $(document).ready(function(){
         magic8Ball.askQuestion(question);
     };
  
+setTimeout(
+function() {
+        var question = prompt("Ask Me Anything!");
+        magic8Ball.askQuestion(question);
+		   }, 500);
+ 
 
+   $("#questionButton").click( onClick );
         $("#questionButton").click( onClick );
 
 
