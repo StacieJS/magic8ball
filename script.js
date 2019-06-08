@@ -27,19 +27,19 @@ $(document).ready(function(){
         $("#answer").hide();
         $("#8ball").attr("src", "https://s3.amazonaws.com/media.skillcrush.com/skillcrush/wp-content/uploads/2016/09/magic8ballAnswer.png");
         var question = prompt("Ask Me Anything!");
+	$("#8ball").effect( "shake" );
         magic8Ball.askQuestion(question);
     };
  
 setTimeout(
 function() {
         var question = prompt("Ask Me Anything!");
+	$("#8ball").effect( "shake" );
         magic8Ball.askQuestion(question);
 		   }, 500);
  
 
-   $("#questionButton").click( onClick );
-        $("#questionButton").click( onClick );
-
-
+  	$("#questionButton").click( onClick );
+        
  
 });
