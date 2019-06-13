@@ -34,7 +34,7 @@ body {
   border-radius: 5px;
   border: none;
   color: #f8f8f8;
-  background-color: #f16059;
+  background-color: #990099;
   padding: 10px 75px;
   display: block;
   margin: 0 auto;
@@ -46,7 +46,7 @@ header {
 }
 header span {
   font-size: 60px;
-  color: #f16059;
+  color: #990099;
 }
 
 h1, h2, h3, h4, h5, h6 {
